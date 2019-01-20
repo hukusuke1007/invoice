@@ -3,11 +3,10 @@
 > 請求書デザインテンプレート
 
 ## セットアップ方法
-```
-npm run install
-```
+```bash
+# インストール
+$ npm run install
 
-### 実行
-```
-npm run serve
+# 実行
+$ npm run serve
 ```
