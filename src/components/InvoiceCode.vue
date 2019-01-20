@@ -51,7 +51,7 @@ export default class InvoiceCode extends Vue {
   private termsOfUse: string = '１品以上ご注文いただいた方'
   private howtoReceive: string = 'お越しの際にアプリを提示してください'
   private eventName: string = '居酒屋 宮古島'
-  private qrValue: string = 'aiueo'
+  private qrValue: string = '{"value":{"type":0,"id":"aiueo"}}'
   private qrSize: number = 300
 
   // QRの色を設定
