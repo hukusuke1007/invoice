@@ -4,10 +4,10 @@
 
 ## セットアップ方法
 ```
-yarn install
+npm run install
 ```
 
 ### 実行
 ```
-yarn serve
+npm run serve
 ```
