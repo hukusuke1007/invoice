@@ -54,7 +54,7 @@ export default class InvoiceCode extends Vue {
   private qrValue: string = '{"value":{"type":0,"id":"aiueo"}}'
   private qrSize: number = 300
 
-  // QRの色を設定
+  // ★ QRの色を設定
   private qrColor: string = 'white'
 }
 </script>
@@ -66,11 +66,11 @@ export default class InvoiceCode extends Vue {
 p
   font-size 14px
 
-// 請求書の背景
+// ★ 請求書の背景
 .invoice-container
   background blue
 
-// 請求書名
+// ★ 請求書名
 .label-service
   color white
   margin 10px
@@ -86,7 +86,7 @@ p
     color white
     padding 8px 2px
 
-  // コイン
+  // ★ コイン名称
   &__value
     font-size 20px
     font-weight bold
@@ -94,18 +94,18 @@ p
     color white
     padding 8px
 
-  // 利用条件
+  // ★ 利用条件
   &__text
     font-size 14px
     text-align center
     color white
     padding 8px
 
-// お受け取り
+// ★ お受け取り
 .label-howtoreceive
   color white
 
-// 加盟店
+// ★ 加盟店
 .label-event
   display block
   font-size 14px

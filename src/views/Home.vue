@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <InvoiceCode msg="Welcome to Your Vue.js + TypeScript App"/>
+    <InvoiceCode/>
   </div>
 </template>
 
